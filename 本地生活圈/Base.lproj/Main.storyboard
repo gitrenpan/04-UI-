@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Home Controller-->
+        <scene sceneID="LZw-68-Sxd">
+            <objects>
+                <viewController storyboardIdentifier="DSHomeController" id="PpU-S6-aF5" customClass="DSHomeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="teF-87-2in"/>
+                        <viewControllerLayoutGuide type="bottom" id="CUK-sM-732"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ufJ-0M-dR2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="XTF-Re-dPg">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" red="1" green="0.66512207570000004" blue="0.19019282030000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PpU-S6-aF5" id="Zr0-Kq-Aij"/>
+                                    <outlet property="delegate" destination="PpU-S6-aF5" id="b0q-Wm-SSy"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41254090240000002" green="0.098402264880000007" blue="0.92929292929999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XTF-Re-dPg" firstAttribute="top" secondItem="ufJ-0M-dR2" secondAttribute="top" constant="64" id="3eI-Gb-gjq"/>
+                            <constraint firstItem="CUK-sM-732" firstAttribute="top" secondItem="XTF-Re-dPg" secondAttribute="bottom" id="Hbx-GW-QlN"/>
+                            <constraint firstAttribute="trailing" secondItem="XTF-Re-dPg" secondAttribute="trailing" id="XHC-hQ-3GQ"/>
+                            <constraint firstItem="XTF-Re-dPg" firstAttribute="leading" secondItem="ufJ-0M-dR2" secondAttribute="leading" id="nIx-F2-6hf"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="XTF-Re-dPg" id="doo-uy-P7a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUK-0U-vmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182" y="111"/>
+        </scene>
+        <!--News Controller-->
+        <scene sceneID="Xpq-X9-EsJ">
+            <objects>
+                <viewController storyboardIdentifier="DSNewsController" id="ayE-Sv-cBo" customClass="DSNewsController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EWx-Jh-E65"/>
+                        <viewControllerLayoutGuide type="bottom" id="oZZ-iW-LoA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P4X-ca-i60">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qJ-GB-TuW">
+                                <rect key="frame" x="164" y="264" width="36" height="30"/>
+                                <state key="normal" title="news">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92949021460000003" green="0.2855943346" blue="0.41582770099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DlK-cp-ql0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349.5" y="7.5"/>
+        </scene>
+        <!--Circle Controller-->
+        <scene sceneID="Ep9-Dq-mr7">
+            <objects>
+                <viewController storyboardIdentifier="DSCircleController" id="XNU-cs-UIr" customClass="DSCircleController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RdQ-Jy-Uf9"/>
+                        <viewControllerLayoutGuide type="bottom" id="eby-oo-5l7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oPW-kg-B4R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnz-mU-AXM">
+                                <rect key="frame" x="137" y="242" width="37" height="30"/>
+                                <state key="normal" title="circle">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64637645519999998" green="1" blue="0.42073393380000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyh-tw-7Jj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="415"/>
+        </scene>
+        <!--Tools Controller-->
+        <scene sceneID="UIy-Eh-AnJ">
+            <objects>
+                <viewController storyboardIdentifier="DSToolsController" id="vyA-mH-4Zh" customClass="DSToolsController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kGw-kK-mCc"/>
+                        <viewControllerLayoutGuide type="bottom" id="rDn-cL-1s9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="axJ-ez-5Ay">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbY-be-vEG">
+                                <rect key="frame" x="120" y="217" width="34" height="30"/>
+                                <state key="normal" title="tools">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.66512207570000004" blue="0.19019282030000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G0E-ao-cx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="527"/>
+        </scene>
+    </scenes>
+</document>

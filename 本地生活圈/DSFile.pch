@@ -1,0 +1,32 @@
+//
+//  DSFile.pch
+//  本地生活圈
+//
+//  Created by 任攀 on 15/8/9.
+//  Copyright (c) 2015年 任攀. All rights reserved.
+//
+
+#ifndef ______DSFile_pch
+#define ______DSFile_pch
+
+#import "DSConstant.h"
+
+#import "DSFactory.h"
+
+#import "DSBaseNaviController.h"
+
+#import "AppDelegate.h"
+
+#import "DSTempViewController.h"
+
+#import "DSHTTPClient.h"
+
+#import "DSLocationManager.h"
+
+#import "DSHomeModel.h"
+
+#import "UIImageView+WebCache.h"
+
+#import "DSFunction.h"
+
+#endif
