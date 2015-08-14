@@ -202,6 +202,12 @@
     
 }
 
+- (void)sdohisda{
+
+    NSLog(@"nshkshhahsh的年度内部");
+
+}
+
 
 // 按钮的点击事件：按钮已经删除
 - (void)homeBtnClick {

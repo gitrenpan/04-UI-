@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>447ABEE2-791F-471B-A02A-6C162AB48807</string>
+	<key>IDESourceControlProjectName</key>
+	<string>本地生活圈</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE2E3358B85B926CDE16932AF255898EFFFF4E9B</key>
+		<string>https://github.com/gitrenpan/04-UI-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>本地生活圈.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE2E3358B85B926CDE16932AF255898EFFFF4E9B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gitrenpan/04-UI-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE2E3358B85B926CDE16932AF255898EFFFF4E9B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE2E3358B85B926CDE16932AF255898EFFFF4E9B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>04-UI%E5%A4%84%E7%90%86%E5%89%AF%E6%9C%AC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
