@@ -88,6 +88,7 @@
 		3894538C1B7B040100FE5FD2 /* DSShakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3894538B1B7B040100FE5FD2 /* DSShakeController.m */; };
 		3894538F1B7B041300FE5FD2 /* DSSurroundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3894538E1B7B041300FE5FD2 /* DSSurroundController.m */; };
 		389453981B7B5EA000FE5FD2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 389453971B7B5EA000FE5FD2 /* 1.jpg */; };
+		38C767061B7D9B77008C919F /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C767051B7D9B77008C919F /* DSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,6 +262,8 @@
 		3894538D1B7B041300FE5FD2 /* DSSurroundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSurroundController.h; sourceTree = "<group>"; };
 		3894538E1B7B041300FE5FD2 /* DSSurroundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSurroundController.m; sourceTree = "<group>"; };
 		389453971B7B5EA000FE5FD2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		38C767041B7D9B77008C919F /* DSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
+		38C767051B7D9B77008C919F /* DSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -661,6 +664,8 @@
 		3874D1031B77A5330071687D /* More */ = {
 			isa = PBXGroup;
 			children = (
+				38C767041B7D9B77008C919F /* DSViewController.h */,
+				38C767051B7D9B77008C919F /* DSViewController.m */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -925,6 +930,7 @@
 				3862F2A21B7B944D00FFE0A1 /* JSONKeyMapper.m in Sources */,
 				3894538C1B7B040100FE5FD2 /* DSShakeController.m in Sources */,
 				383864111B79A142008ED700 /* AFHTTPRequestOperation.m in Sources */,
+				38C767061B7D9B77008C919F /* DSViewController.m in Sources */,
 				3874D1131B77A6F40071687D /* DSNewsController.m in Sources */,
 				3838641D1B79A142008ED700 /* UIButton+AFNetworking.m in Sources */,
 				3874D10E1B77A6C80071687D /* DSCircleController.m in Sources */,
